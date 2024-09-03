@@ -28,7 +28,7 @@ export default function Login({ url }) {
         },
         onClick: function () {}, // Callback after click
       }).showToast();
-      navigate('/home');
+      navigate('/');
     } catch (error) {
       Toastify({
         text: error.response.data.message,
