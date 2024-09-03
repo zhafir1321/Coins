@@ -32,7 +32,7 @@ const router = createBrowserRouter([
           },
           onClick: function () {}, // Callback after click
         }).showToast();
-        return redirect('/home');
+        return redirect('/');
       }
       return null;
     },
@@ -61,7 +61,7 @@ const router = createBrowserRouter([
     },
     children: [
       {
-        path: '/home',
+        path: '/',
         element: <Home url={url} />,
       },
       {
