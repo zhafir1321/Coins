@@ -109,7 +109,7 @@ export default function Navbar() {
           </Link>
         </div>
         <div className="navbar-center">
-          <Link to={'/home'} className="btn btn-ghost text-xl">
+          <Link to={'/'} className="btn btn-ghost text-xl">
             HackCrypto
           </Link>
         </div>
